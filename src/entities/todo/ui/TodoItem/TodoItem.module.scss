@@ -5,7 +5,8 @@
   padding-left: 10px;
   border: var(--border);
   border-radius: var(--border-radius);
-
+  transition: opacity 0.4s ease, translate 0.4s ease;
+  
   &:hover {
     background-color: var(--color-gray-1);
   }
